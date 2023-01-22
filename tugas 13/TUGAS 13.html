@@ -1,0 +1,261 @@
+<html>
+<title>TUGAS 13</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<style>
+	.w3-bar
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	h1
+	{
+		font-family:serif;
+		font-size:50;
+	}
+	h2
+	{
+		font-family:monospace;
+	}
+</style>
+
+<body bgcolor=gray>
+<div class="w3-container w3-black w3-center">
+	<img src="bdg1.png" width=40%>
+</div>
+</body>
+
+<div class="w3-bar w3-white">
+	<button class="w3-bar-item w3-button" onclick="kota('Home')">Home</button>
+	<div class="w3-dropdown-hover">
+		<button class="w3-button">Bandung City</button>
+			<div class="w3-dropdown-content w3-bar-block w3-card-4">
+				<button class="w3-bar-item w3-button w3-center" onclick="kota('Bdgdfns')">What is Bandung ?</button>
+				<button class="w3-bar-item w3-button w3-center" onclick="kota('Bdgalam')">Nature Tourism</button>
+				<button class="w3-bar-item w3-button w3-center" onclick="kota('Bdgkota')">City Tourism</button>
+			</div>
+	</div>
+	<div class="w3-dropdown-hover">
+		<button class="w3-button">Cimahi City</button>
+			<div class="w3-dropdown-content w3-bar-block w3-card-4">
+				<button class="w3-bar-item w3-button w3-center" onclick="kota('Cmhdfns')">What is Cimahi ?</button>
+				<button class="w3-bar-item w3-button w3-center" onclick="kota('Cmhalam')">Nature Tourism</button>
+				<button class="w3-bar-item w3-button w3-center" onclick="kota('Cmhkota')">City Tourism</button>
+			</div>
+	</div>
+	<div class="w3-dropdown-hover">
+		<button class="w3-button">Bandung Regency</button>
+			<div class="w3-dropdown-content w3-bar-block w3-card-4">
+				<button class="w3-bar-item w3-button w3-center" onclick="kota('Bdrdfns')">What is Bandung Regency ?</button>
+				<button class="w3-bar-item w3-button w3-center" onclick="kota('Bdralam')">Nature Tourism</button>
+				<button class="w3-bar-item w3-button w3-center" onclick="kota('Bdrkota')">City Tourism</button>
+			</div>
+	</div>
+	<div class="w3-dropdown-hover">	
+		<button class="w3-button">West Bandung Regency</button>
+			<div class="w3-dropdown-content w3-bar-block w3-card-4">
+				<button class="w3-bar-item w3-button w3-center" onclick="kota('Wbrdfns')">What is West Bandung Regency ?</button>
+				<button class="w3-bar-item w3-button w3-center" onclick="kota('Wbralam')">Nature Tourism</button>
+				<button class="w3-bar-item w3-button w3-center" onclick="kota('Wbrkota')">City Tourism</button>
+			</div>
+	</div>
+	<button class="w3-bar-item w3-button" onclick="kota('Tra')">Public Transportation</button>
+	<button class="w3-bar-item w3-button" onclick="kota('Abt')">About Me</button>
+</div>
+
+<div id="Home" class="w3-container raya w3-animate-right" style="display:block">
+	<center>
+	<p>
+	<table>
+		<tr><td><img src="6.jpg" width=101%>
+		</td>
+		<td><img src="2.jpg" width=101%>
+		</td>
+		<td><img src="4.jpg" width=101%>
+		</td>
+		<td><img src="3.jpeg" width=101%>
+		</td>
+	</table>
+	<p>
+	<div class="w3-black w3-round-xlarge">
+		<marquee direction="left" scrollamount="15">
+			<h2>>>>Welcome to Bandung<<<</h2>
+		</marquee>
+	</div>
+	<div class="w3-panel w3-leftbar w3-sand">
+		<h1><i>Wilujeung Sumping</i></h1>
+	</div>
+</div>
+
+<div id="Bdgdfns" class="w3-container raya w3-animate-opacity" style="display:none">
+	<center>
+	<div class="w3-black w3-round-xlarge">
+		<h2>What is Bandung City ?</h2>
+	</div>
+	<table>
+		<tr><td><img src="2.jpg" width="500" height="330"> 
+		<td><p><font size=5>Bandung City the capital city of Indonesian province of West Java. Bandung is the fourth most populous city in Indonesia with 2,452,943 population in mid 2021.<br>
+		<p>Bandung also called as <i>Parijs van Java</i>, because many luxurious hotels, restaurants, cafes, and European boutiques were open during the Dutch colonial period.
+		</font>
+	</table>
+</div>
+
+<div id="Bdgalam" class="w3-container raya w3-animate-opacity" style="display:none">
+	<center>
+	<div class="w3-black w3-round-xlarge">
+		<h2>Nature Tourism : Forest Walk Babakan Siliwangi</h2>
+	</div>
+	<table>
+		<tr><td><img src="fw.jpg" width=450 height=330>
+		<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2929.5168888437593!2d107.60910171376105!3d-6.886167295024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6f840ab33e3%3A0x734f9b066bb610fa!2sBabakan%20Siliwangi%20City%20Forest!5e1!3m2!1sen!2sid!4v1674231685748!5m2!1sen!2sid" width="450" height="330"></iframe>
+	</table>
+</div>
+
+<div id="Bdgkota" class="w3-container raya w3-animate-opacity" style="display:none">
+	<center>
+	<div class="w3-black w3-round-xlarge">
+		<h2>City Tourism : Gedung Sate</h2>
+	</div>
+	<table>
+		<tr><td><img src="sate.webp" width=450 height=330>
+		<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.3892741806726!2d107.61650741414462!3d-6.902458869466751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e64c5e8866e5%3A0x37be7ac9d575f7ed!2sGedung%20Sate!5e1!3m2!1sen!2sid!4v1674232274521!5m2!1sen!2sid" width="450" height="330"></iframe>
+	</table>
+</div>
+
+<div id="Cmhdfns" class="w3-container raya w3-animate-bottom" style="display:none">
+	<center>
+	<div class="w3-black w3-round-xlarge">
+		<h2>What is Cimahi City ?</h2>
+	</div>
+	<table>
+		<tr><td><img src="cmh.jpg" width="500" height="330">
+		<td><p><font size=5>Cimahi city is a city located immediately west of the larger city of Bandung, in West Java Province, Indonesia and within the Bandung Metropolitan Area. It had a population at the 2021 Census of 571,632. The city is a major textile producer and is home to several military training centres.</p>
+		</font>
+	</table>
+</div>
+
+<div id="Cmhalam" class="w3-container raya w3-animate-bottom" style="display:none">
+	<center>
+	<div class="w3-black w3-round-xlarge">
+		<h2>Nature Tourism : Curug Panganten Katumiri</h2>
+	</div>
+	<table>
+		<tr><td><img src="cpc.jpg" width=450 height=330>
+		<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25525.445870441894!2d107.5328906495366!3d-6.835539799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e3c8ffe5fda5%3A0x81850a9bacb8b628!2sCurug%20Panganten%20Cimahi!5e1!3m2!1sen!2sid!4v1674234178144!5m2!1sen!2sid" width="450" height="330"></iframe>
+	</table>
+</div>
+
+<div id="Cmhkota" class="w3-container raya w3-animate-bottom" style="display:none">
+	<center>
+	<div class="w3-black w3-round-xlarge">
+		<h2>City Tourism : Taman Kartini</h2>
+	</div>
+	<table>
+		<tr><td><img src="tk.jpg" width=450 height=330>
+		<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2929.5026566141296!2d107.53248111206035!3d-6.8884717814323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e452e9db0f2b%3A0xbd0d586e63778fb6!2sTaman%20Kartini!5e1!3m2!1sen!2sid!4v1674235121006!5m2!1sen!2sid" width="450" height="330"></iframe>
+	</table>
+</div>
+
+<div id="Bdrdfns" class="w3-container raya w3-animate-top" style="display:none">
+	<center>
+	<div class="w3-black w3-round-xlarge">
+		<h2>What is Bandung Regency ?</h2>
+	</div>
+	<table>
+		<tr><td><img src="prh.jpg" width="500" height="330">
+		<td><p><font size=5>Bandung Regency is an administrative landlocked regency located to the south, southeast, east and northeast of the city of Bandung. Soreang is the capital of this region.
+		<p>In mid 2021, the population has reached 3,666,156 inhabitants with 31 districts. Baleendah is the most populous district in this region.
+		</font>
+	</table>
+</div>
+
+<div id="Bdralam" class="w3-container raya w3-animate-top" style="display:none">
+	<center>
+	<div class="w3-black w3-round-xlarge">
+		<h2>Nature Tourism : Kawah Putih</h2>
+	</div>
+	<table>
+		<tr><td><img src="bdr.jpg" width=450 height=330>
+		<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1610.779631581553!2d107.40104530789787!3d-7.166151387447328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e688c1383dc510f%3A0xfab41bb8e4a3a83e!2sWhite%20Crater!5e1!3m2!1sen!2sid!4v1674220537639!5m2!1sen!2sid" width="500" height="330"></iframe>
+	</table>
+</div>
+
+<div id="Bdrkota" class="w3-container raya w3-animate-top" style="display:none">
+	<center>
+	<div class="w3-black w3-round-xlarge">
+		<h2>City Tourism : Menara Sabilulungan 99</h2>
+	</div>
+	<table>
+		<tr><td><img src="99.jpeg" width=450 height=330>
+		<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2928.6799956269197!2d107.52731561376214!3d-7.020397994928941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68edc40e359563%3A0x628d7425286d002e!2sMenara%20Sabilulungan%2099!5e1!3m2!1sen!2sid!4v1674272748757!5m2!1sen!2sid" width="450" height="330"></iframe>
+	</table>
+</div>
+
+<div id="Wbrdfns" class="w3-container raya w3-animate-zoom" style="display:none">
+	<center>
+	<div class="w3-monospace w3-black w3-round-xlarge">
+		<h2>What is West Bandung Regency ?</h2>
+	</div>
+	<table>
+		<tr><td><img src="obs.jpg" width="500" height="330">
+		<td><p><font size=5>West Bandung Regency was a part of the Bandung Regency, then became the West Bandung Regency in 2007 with Ngamprah as it capital city.
+		<p>In 2021, this region reached 1,780,767 inhabitants with Lembang as the most populous district and tourist attraction.
+	</table>
+</div>
+
+<div id="Wbralam" class="w3-container raya w3-animate-zoom" style="display:none">
+	<center>
+	<div class="w3-monospace w3-black w3-round-xlarge">
+		<h2>Nature Tourism : Sukawarna Tea Plantation</h2>
+	</div>
+	<table>
+		<tr><td><img src="skw.jpg" width=450 height=330>
+		<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51587.3236525399!2d107.52309113125001!3d-6.781238199999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e1ec4ace1fed%3A0x70e1b85ac0e9f3bf!2sSukawarna%20Tea%20Plantation!5e1!3m2!1sen!2sid!4v1674274182035!5m2!1sen!2sid" width="450" height="330"></iframe>
+	</table>
+</div>
+
+<div id="Wbrkota" class="w3-container raya w3-animate-zoom" style="display:none">
+	<center>
+	<div class="w3-monospace w3-black w3-round-xlarge">
+		<h2>City Tourism : Floating Market Lembang</h2>
+	</div>
+	<table>
+		<tr><td><img src="flo.jpg" width=450 height=330>
+		<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2929.9424589072223!2d107.61510461376055!3d-6.816900695073118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e11c4a9d27e5%3A0x7bcd1ace08104f55!2sFloating%20Market%20Lembang!5e1!3m2!1sen!2sid!4v1674274352965!5m2!1sen!2sid" width="450" height="330"></iframe>		
+	</table>
+</div>
+
+<div id="Abt" class="w3-container raya w3-animate-fading" style="display:none">
+	<center>
+	<div class="w3-monospace w3-black w3-round-xlarge">
+		<h2>About Me</h2>
+	</div>
+	<p><img src="api.jpg" width="150px">
+	<font size=5><b>
+	<p>Muhammad Raffy Abdillah
+	<br>10122099
+	<br>IF-3
+	</b></font>
+</div>
+
+<div id="Tra" class="w3-container raya w3-animate-opacity" style="display:none">
+	<center>
+	<div class="w3-monospace w3-black w3-round-xlarge">
+		<h2>Public Transportation in Bandung</h2>
+	</div>
+	<embed type="application/pdf" src="tra.pdf" width=100% height=100%>
+	</embed>
+</div>
+
+<script>
+function kota(namakota) {
+ var i;
+ var x = document.getElementsByClassName("raya");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none"; 
+ }
+ document.getElementById(namakota).style.display = "block"; 
+}
+</script>
+</html>
